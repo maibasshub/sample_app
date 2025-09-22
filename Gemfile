@@ -11,7 +11,7 @@ gem "importmap-rails", "~> 2.0"
 gem "turbo-rails",     "~> 2.0"
 gem "stimulus-rails",  "~> 1.3"
 gem "jbuilder",        "~> 2.12"
-gem "puma",            "~> 6.0"
+gem "puma",            "~> 7.0"
 gem "bootsnap",        "~> 1.18", require: false
 gem "sqlite3",         "~> 2.1"
 gem "concurrent-ruby", "1.3.4"
