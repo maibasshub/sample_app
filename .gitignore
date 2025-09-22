@@ -30,5 +30,8 @@
 
 /public/assets
 
+# Ignore DartSass build outputs
+/app/assets/builds/
+
 # Ignore master key for decrypting credentials and more.
 /config/master.key
