@@ -1,9 +1,11 @@
-/* custom styles */
+@import "bootstrap";
+
+/* mixins, variables, etc. */
 
 /* universal */
 
 body {
-  padding-top: 60px !important;
+  padding-top: 60px;
 }
 
 section {
@@ -16,10 +18,10 @@ textarea {
 
 .center {
   text-align: center;
-}
 
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* typography */
@@ -46,7 +48,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: var(--bs-gray-600);
 }
 
 p {
@@ -54,71 +56,52 @@ p {
   line-height: 1.7em;
 }
 
+
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
 
-#logo:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-/* Bootstrap 5 hero section (replaces jumbotron) */
-.hero {
-  padding: 3rem 2rem;
-  background-color: #f8f9fa;
-  border-radius: 0.5rem;
-  margin-bottom: 2rem;
-}
-
-.hero h1 {
-  font-size: 3.5rem;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
-
-.hero p {
-  font-size: 1.25rem;
-  font-weight: 300;
-  margin-bottom: 2rem;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 /* footer */
 
-.footer {
+footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
+  border-top: 1px solid var(--bs-gray-200);
+  color: var(--bs-gray-600);
 
-.footer a {
-  color: #555;
-}
+  a {
+    color: var(--bs-gray-700);
 
-.footer a:hover {
-  color: #222;
-}
+    &:hover {
+      color: var(--bs-gray-800);
+    }
+  }
 
-footer small {
-  float: left;
-}
+  small {
+    float: left;
+  }
 
-footer ul {
-  float: right;
-  list-style: none;
-}
+  ul {
+    float: right;
+    list-style: none;
 
-footer ul li {
-  float: left;
-  margin-left: 15px;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
