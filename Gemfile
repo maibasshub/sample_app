@@ -18,7 +18,7 @@ gem "concurrent-ruby", "1.3.4"
 gem "bootstrap",       "~> 5.3.0"
 
 group :development, :test do
-  gem 'reline', '0.5.10'
+  gem 'reline', '0.6.2'
   gem "debug",   "1.7.1", platforms: %i[ mri mingw x64_mingw ]
 end
 
