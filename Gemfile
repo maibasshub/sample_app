@@ -15,7 +15,7 @@ gem "jbuilder",        "~> 2.12"
 gem "puma",            "~> 6.0"
 gem "bootsnap",        "~> 1.18", require: false
 gem "sqlite3",         "~> 2.1"
-gem "concurrent-ruby", "1.3.4"
+gem "concurrent-ruby", "1.3.5"
 gem "bootstrap",       "~> 5.3.0"
 
 group :development, :test do
